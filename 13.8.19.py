@@ -3,7 +3,7 @@ person = tickets
 
 cost = 0
 while person != 0:
-    age_for_ticket = int(input(f'Укажите для какого возраста приобретается билет ? '))
+    age_for_ticket = int(input('Укажите для какого возраста приобретается билет ? '))
     if age_for_ticket < 18:
         print('Билет бесплатный')
     elif 25 > age_for_ticket >= 18:
